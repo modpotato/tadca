@@ -38,7 +38,7 @@
    LIGHT THEME SPECIFIC
    ======================================== */
 
-:root:not([data-theme="dark"]) {
+:root {
   /* Background Colors */
   --vp-c-bg: #ffffff;
   --vp-c-bg-alt: #f8fafc;
@@ -101,7 +101,7 @@
    DARK THEME SPECIFIC
    ======================================== */
 
-[data-theme="dark"] {
+html.dark {
   /* Background Colors */
   --vp-c-bg: #0d0d0d;
   --vp-c-bg-alt: #111111;

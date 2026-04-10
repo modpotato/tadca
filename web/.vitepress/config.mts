@@ -5,6 +5,7 @@ export default defineConfig({
   description: 'The Amazing Digital Circus - Complete Lore Archive & Easter Egg Database',
   
   base: '/tadca/',
+  appearance: true,
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
