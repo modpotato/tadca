@@ -55,7 +55,7 @@ export default defineConfig({
     ],
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username/thewackywatch-dump' }
+      { icon: 'github', link: 'https://github.com/modpotato/tadca' }
     ],
     
     footer: {
@@ -68,7 +68,7 @@ export default defineConfig({
     },
     
     editLink: {
-      pattern: 'https://github.com/your-username/thewackywatch-dump/edit/main/web/:path',
+      pattern: 'https://github.com/modpotato/tadca/edit/develop/web/:path',
       text: 'Edit this page on GitHub'
     }
   },
