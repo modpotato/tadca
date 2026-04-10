@@ -40,7 +40,8 @@ export default defineConfig({
           { text: 'Episode Guide', link: '/lore/episodes' },
           { text: 'Character Backstories', link: '/lore/characters' },
           { text: 'Abstracted Characters', link: '/lore/abstracted' },
-          { text: 'I Have No Mouth Parallels', link: '/lore/ihnmaims' }
+          { text: 'I Have No Mouth Parallels', link: '/lore/ihnmaims' },
+          { text: 'Theories & Discussions', link: '/lore/theories' }
         ]
       },
       {
