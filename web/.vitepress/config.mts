@@ -4,7 +4,7 @@ export default defineConfig({
   title: 'TADC Lore Archive',
   description: 'The Amazing Digital Circus - Complete Lore Archive & Easter Egg Database',
   
-  base: '/thewackywatch-dump/',
+  base: '/tadca/',
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],

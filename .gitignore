@@ -3,3 +3,4 @@ web/.vitepress/cache/
 web/.vitepress/dist/
 .DS_Store
 *.log
+.folder/
