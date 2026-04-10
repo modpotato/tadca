@@ -1,0 +1,152 @@
+:root {
+  --vp-c-brand-1: #dc2626;
+  --vp-c-brand-2: #b91c1c;
+  --vp-c-brand-3: #991b1b;
+  --vp-c-brand-soft: rgba(220, 38, 38, 0.14);
+  
+  --caine-red: #dc2626;
+  --caine-red-dim: rgba(220, 38, 38, 0.15);
+  --abel-blue: #2563eb;
+  --abel-blue-dim: rgba(37, 99, 235, 0.15);
+  
+  --vp-button-brand-bg: #dc2626;
+  --vp-button-brand-hover-bg: #ef4444;
+}
+
+.VPHero .name {
+  background: linear-gradient(135deg, #dc2626 0%, #2563eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  background: linear-gradient(135deg, #dc2626 0%, #2563eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPFeature {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.VPFeature:hover {
+  border-color: #dc2626;
+}
+
+.VPSidebar {
+  background: #111;
+  border-right: 1px solid #222;
+}
+
+.VPSidebar .VPSidebarItem.active .text {
+  color: #dc2626;
+}
+
+.VPContent {
+  background: #0d0d0d;
+}
+
+.VPDoc h1 {
+  color: #f5f5f5;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+thead {
+  background: #1a1a1a;
+}
+
+th {
+  color: #999;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #222;
+  color: #ccc;
+}
+
+tr:hover td {
+  background: #1a1a1a;
+}
+
+blockquote {
+  border-left: 3px solid #dc2626;
+  background: #1a1a1a;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+blockquote p {
+  color: #ccc;
+}
+
+a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #93bbfc;
+}
+
+.VPNavBar {
+  background: #111;
+  border-bottom: 1px solid #222;
+}
+
+.VPNavBarTitle {
+  color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+.VPLocalSearchBox {
+  --vp-c-brand-1: #dc2626;
+}
+
+.VPFooter {
+  background: #111;
+  border-top: 1px solid #222;
+}
+
+.vp-code-group {
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.vp-code-group .tabs {
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+}

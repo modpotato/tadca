@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Before Submitting
+    url: https://github.com/YOUR_USERNAME/thewackywatch-dump/wiki/Contribution-Guide
+    about: Read the contribution guide first

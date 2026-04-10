@@ -1,0 +1,29 @@
+THE AMAZING DIGITAL CIRCUS - Ep 8: hjsakldfhl
+
+C:\CANDA\Characters\AI
+File  Fri  View  Help
+
+Cmd
+
+kinger@circus:~$ grep AI-Location
+root 1337 /usr/ai/agent/caine
+root 1338 /usr/ai/agent/experimental
+root 1339 /usr/ai/module/consciousnessresearch
+root 1340 /usr/ai/module/brainscans
+kinger@circus:~$ /secured/
+total 8492
+drwxr-xr-x 3 root wheel 512 Oct 15 1996 ...
+drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ...
+drwxr-xr-x 1 root wheel 892344 Oct 15 1996 caine-core.lisp
+-rwxr-xr-x 1 root wheel 234512 Oct 15 1996 paraphernalia-engine.dat
+-rwxr-xr-x 1 root wheel 234512 Oct 15 1999 [Scratch].dat
+-rwxr-xr-x 1 root wheel 234512 Oct 15 2008 [Ragatha].dat
+...
+-rwxr-xr-x 1 root wheel 45632 Oct 15 1996 wacky-watch.c
+-rwxr-xr-x 1 root wheel 78234 Oct 15 1996 bubble-chef.lisp
+kinger@circus:~$ stop caine process
+
+WARNING: $"%WHOOPS WRONG APPROACH THERE~%" 
+kinger@circus:~$ /usr/bin/gdb /usr/local/bin/clisp 1337
+gdb: ptrace: Operation not permitted
+ERROR: Protected by 57x immersive AI defense sy

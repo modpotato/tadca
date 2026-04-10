@@ -1,0 +1,31 @@
+THE AMAZING DIGITAL CIRCUS - Ep 8: hjsakldfhl
+
+C:\CANDA\Characters\AI
+File Fri Wed Thu Fri
+
+Cmd
+8 x 12
+
+drwxr-xr-x 3 root wheel 512 Oct 15 1996 ...
+drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ...
+drwxr-xr-x 1 root wheel 892344 Oct 15 1996 caine-core.lisp
+drwxr-xr-x 1 root wheel 234512 Oct 15 1996 paraphernalia-engine.dat
+drwxr-xr-x 1 root wheel 234512 Oct 15 1999 [Scratch].dat
+drwxr-xr-x 1 root wheel 234512 Oct 15 2008 [Ragatha].dat
+
+...
+-rwxr-xr-x 1 root wheel 45632 Oct 15 1996 wacky-watch.c
+-rwxr-xr-x 1 root wheel 78234 Oct 15 1996 bubble-chef.lisp
+kinger@circus:~$ stop caine process
+
+WARNING: $"~%WHOOPS WRONG APPROACH THERE~x"
+kinger@circus:~$ /usr/bin/gdb /usr/local/bin/clisp 1337
+gdb: ptrace: Operation not permitted
+ERROR: Protected by 57x immersive AI defense system
+kinger@circus:~$ chmod 000 /secured/caine-core.lisp
+chmod: /secured/caine-core.lisp: Permission denied
+WARNING: Unfinished work detected. Access restricted.
+kinger@circus:~$ rm /secured/paraphernalia-engine.dat
+rm: /secured/paraphernalia-engine.dat: Permission denied
+ERROR: Can/not inject torm-nt. TOrment must be 100% ac<iden•al•xY
+kinger@circus:~$

@@ -1,0 +1,89 @@
+name: New Lore / Knowledge Point
+description: Submit new information, discoveries, or lore points for research and verification
+title: "[LORE] "
+labels: ["needs-research", "lore"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit New Lore
+        
+        Thanks for contributing! Submit what you know, and we'll research and fact-check it before adding to the archive.
+        
+        **No PRs needed** — just describe what you've found, and we'll handle the rest.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Discovery
+      options:
+        - New Easter Egg
+        - Character Backstory / Lore
+        - Episode Detail (missed or misunderstood)
+        - Website Finding
+        - Timeline Correction
+        - Connection / Reference
+        - Theory (needs verification)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: page
+    attributes:
+      label: Which page should this update?
+      options:
+        - /timeline
+        - /lore/episodes
+        - /lore/characters
+        - /lore/abstracted
+        - /easter-eggs
+        - /research/terminal
+        - /research/pentest
+        - /lore/ihnmaims
+        - Other (specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: info
+    attributes:
+      label: What did you find?
+      description: Describe the lore point, discovery, or information you want added.
+      placeholder: "Example: In Episode 5, during the bar scene, Pomni mentions she explored abandoned buildings. This might connect to how she found the C&A office."
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources you already have
+      description: Link to videos, screenshots, wiki pages, or describe which episode/timecode.
+      placeholder: |
+        - Episode 5, timestamp 12:34
+        - https://tadc.fandom.com/wiki/SomePage
+        - YouTube video: https://youtube.com/watch?v=xxx
+    validations:
+      required: false
+
+  - type: textarea
+    id: research
+    attributes:
+      label: What should be researched/verified?
+      description: What do you want us to fact-check or look into further?
+      placeholder: "Example: Verify if the abandoned building exploration is confirmed as how Pomni entered the circus. Check Fandom Wiki, TV Tropes, and creator statements."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I checked existing pages and this isn't already documented
+          required: true
+        - label: This is based on actual content (episodes, website, official sources)
+          required: true
+        - label: I understand this will be researched before being added
+          required: true

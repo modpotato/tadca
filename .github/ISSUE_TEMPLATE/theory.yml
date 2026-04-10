@@ -1,0 +1,67 @@
+name: Theory / Unverified Claim
+description: Submit a theory or unverified claim for research
+title: "[THEORY] "
+labels: ["theory", "needs-deep-research"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit a Theory
+        
+        Got a theory or heard something that needs verification? Submit it here and we'll research it thoroughly.
+        
+        These issues get **deep research** — web searches, wiki cross-references, creator statements, community analysis.
+
+  - type: textarea
+    id: theory
+    attributes:
+      label: What's the theory or claim?
+      description: Describe what you've heard, theorized, or want verified.
+      placeholder: "Theory: The number 57 is connected to ASCII character codes. In ASCII, 57 is the number for '9', and 5+7=12, which is the character code for form feed..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence for this theory
+      description: What supports this? Screenshots, patterns, episode details, etc.
+      placeholder: |
+        - 57 appears in every episode
+        - Episode 8 terminal shows "57x defense system"
+        - Creator Gooseworx has used 57 in previous work (Monkey Wrench)
+    validations:
+      required: false
+
+  - type: textarea
+    id: counter
+    attributes:
+      label: Evidence against (if any)
+      description: What might disprove this theory?
+      placeholder: "Gooseworx has said 57 is just her favorite number with no deeper meaning..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: research
+    attributes:
+      label: What should we research?
+      description: Specific questions or angles to investigate.
+      placeholder: |
+        - Verify Gooseworx's statements about 57
+        - Check if 57 has significance in other Glitch Productions shows
+        - Look for 57 in the website source code
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Acknowledgment
+      options:
+        - label: This is a theory or unverified claim, not confirmed lore
+          required: true
+        - label: I understand this may be debunked after research
+          required: true

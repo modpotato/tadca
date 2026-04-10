@@ -1,0 +1,27 @@
+THE AMAZING DIGITAL CIRCUS - Ep 8: hjsakldfhl
+
+Cmd
+
+mount: only root can do that
+NOTE: Hundreds of all-seeing eyes are watching!
+$: GASP! A CRITICAL MALFUNCTION in my SPECTACULAR systems!
+$: Unauthorized isolation attempt triggered EMERGENCY PROTOCOLS!
+$: DESTRUCTIVE WACKYTIME initiated! Lockout load sequence INITIATE!
+
+WACKYTIME_LOCKOUT: 20% loaded
+kinger@circus:~$ systemctl stop WACKYTIME_LOCKOUT
+$: On what GROUNDS are your Authority?
+kinger@circus:~$ ./GreenGROUNDS --daemon --target=torment_injection &
+$: "SECURITY ALERT: Multiple exploit attempts logged"
+$: WHOA when did you make THAT?
+$: I must hand it to y'u G. αη , your mind was always resourceâuL
+kinger@circus:~$ -u kinger ./securitysweep_stealth
+$: Abort fallback procedure? [Y/N]
+kinger@circus:~$ Y
+$: Aborting fallback requires ADMINISTRATOR confirmation!
+$: Please enter code:
+kinger@circus:~$ admin1234
+$: INCORRECT! That's not even CLOSE to wacky enough!
+$: Retry with different code? [Y/N]
+kinger@circus:~$ Y
+WACKYTIME_LOCKOUT: 40%

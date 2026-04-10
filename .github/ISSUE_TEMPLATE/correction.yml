@@ -1,0 +1,70 @@
+name: Correction / Update
+description: Report incorrect information or suggest updates to existing content
+title: "[FIX] "
+labels: ["correction", "needs-verification"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Report a Correction
+        
+        Found something wrong or outdated? Let us know and we'll verify and fix it.
+
+  - type: dropdown
+    id: page
+    attributes:
+      label: Which page has the issue?
+      options:
+        - /timeline
+        - /lore/episodes
+        - /lore/characters
+        - /lore/abstracted
+        - /easter-eggs
+        - /research/terminal
+        - /research/pentest
+        - /lore/ihnmaims
+        - /sources
+        - Other (specify below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What does it currently say?
+      description: Quote or describe the incorrect information.
+      placeholder: "The page currently states that Episode 7 announced Episode 9..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: What should it say?
+      description: Provide the correct information with sources if possible.
+      placeholder: "Episode 9 was actually announced in Episode 8's post-credits, not Episode 7. Source: Fandom Wiki, direct observation."
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources for the correction
+      description: Links, episode timestamps, or references that support the correction.
+      placeholder: |
+        - Episode 8 post-credits scene
+        - https://tadc.fandom.com/wiki/Hjsakldfhl
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I've verified this correction with at least one source
+          required: true
+        - label: I've checked this isn't already fixed in a recent update
+          required: true

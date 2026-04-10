@@ -1,0 +1,17 @@
+{
+  "name": "tadc-lore-archive",
+  "version": "1.0.0",
+  "description": "The Amazing Digital Circus - Complete Lore Archive",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev web",
+    "build": "vitepress build web",
+    "preview": "vitepress preview web"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  }
+}
