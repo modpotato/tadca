@@ -209,16 +209,30 @@ const timelineEvents = [
     ]
   },
   {
+    date: '2026-04-07',
+    title: 'The Last Act - Theatrical Release LEAKED',
+    type: 'milestone',
+    description: 'Cinemark lists Episodes 8+9 theatrical screening for June 4, 2026.',
+    details: [
+      'Cinemark posted listing for "The Amazing Digital Circus: The Last Act"',
+      'Screening scheduled for June 4, 2026 (2 weeks before YouTube release)',
+      'Runtime: 1 hour 38 minutes (Episodes 8+9 combined)',
+      'Episode 9 runtime: ~1 hour 6 minutes (longest episode ever)',
+      'Source: Cinemark website (listing removed), Instagram screenshots, Reddit discussions'
+    ]
+  },
+  {
     date: '2026-06-19',
-    title: 'Episode 9: Grand Finale',
+    title: 'Episode 9: Grand Finale (YouTube Release)',
     type: 'milestone',
     description: 'Series finale. What happens to the characters?',
     details: [
       'Announced in Episode 7 post-credits',
-      'Double Episode 8 length (~1 hour)',
+      'Runtime: ~1 hour 6 minutes (longest episode)',
+      'Possible theatrical release June 4 (unconfirmed)',
       'Will Caine return?',
       'Can they escape?',
-      'Source: Episode 7/8 post-credits announcement'
+      'Source: Episode 7/8 post-credits announcement, Cinemark leak'
     ]
   }
 ]
@@ -308,5 +322,17 @@ The show's episodes air on different dates, but the in-universe events cluster o
 | Stasis pods fabricated | Episode 7 | Episode 7 (Caine dialogue) |
 | Caine deleted | Episode 8 | Episode 8 plot |
 | Second AI sabotaged Kinger | Episode 8 | Episode 8 terminal scene |
+
+### Recent Developments (April 2026)
+
+| Event | Date | Source |
+|-------|------|--------|
+| The Last Act theatrical listing | Apr 7, 2026 | Cinemark website (removed), Instagram, Reddit |
+| Gooseworx: Jax & Pomni are main characters | Feb 2026 | Gooseworx live stream, Instagram |
+| Gooseworx: No Season 2 | Mar 2026 | Gooseworx Tumblr Q&A |
+| GLITCH anti-AI message in credits | Mar 2026 | Episode 8 end credits |
+| Episode 9 runtime: ~1 hour 6 minutes | Apr 2026 | Cinemark listing (1h38m total for Eps 8+9) |
+| Episode 9 title: "The Last Act" (unconfirmed) | Apr 2026 | Cinemark listing |
+| Cast cried reading Episode 9 script | Mar 2026 | Gooseworx Tumblr |
 
 See [Sources & References](/sources) for complete list of all sources used.

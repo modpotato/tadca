@@ -183,6 +183,39 @@ All sources used to compile the TADC Lore Archive.
 
 ---
 
+## Recent Developments (April 2026)
+
+| Source | URL | Used For |
+|--------|-----|----------|
+| Cinemark "The Last Act" listing | https://www.cinemark.com/movies/the-amazing-digital-circus-the-last-act (removed) | Theatrical release confirmation, runtime |
+| Reddit r/TheDigitalCircus | https://www.reddit.com/r/TheDigitalCircus/comments/1s4ti1a/cinemark_the_last_act_listing_is_this_legit/ | Cinemark listing discussion |
+| Reddit r/tadc | https://www.reddit.com/r/tadc/comments/1sgmbav/gooseworx_lore_drop/ | Gooseworx lore drop |
+| Instagram (mister.nocebo) | https://www.instagram.com/p/DWJ0X4tjJp0/ | Episode 9 release date confirmation |
+| Instagram (DWuFunMlEoV) | https://www.instagram.com/p/DWuFunMlEoV/ | Cinemark screenshot |
+| Instagram (DW1ysDQCMRJ) | https://www.instagram.com/p/DW1ysDQCMRJ/ | Runtime details |
+| Glitch Productions Wiki | https://glitchproductions.fandom.com/wiki/Episode_9_(The_Amazing_Digital_Circus) | Episode 9 information |
+| Reddit r/CharacterRant | https://www.reddit.com/r/CharacterRant/comments/1sccnw2/as_a_jax_fan_ill_absolutely_hate_it_if_his_arc/ | Jax/Pomni main character confirmation |
+| Facebook | https://www.facebook.com/TheRiseAndFallOfNickelodeon/posts/glitch-now-has-an-anti-ai-message-in-the-end-credits-of-the-amazing-digital-circ/1241816584751800/ | Anti-AI message in credits |
+| Reddit r/TheDigitalCircus | https://www.reddit.com/r/TheDigitalCircus/comments/1sb1muy/the_final_episodes_runtime/ | Episode 9 runtime discussion |
+
+### Gooseworx Social Media
+
+| Source | Used For |
+|--------|----------|
+| Gooseworx Tumblr | No Season 2 confirmation, Episode 9 hints |
+| Gooseworx Live Stream | Jax & Pomni main characters |
+| Bluesky (Gooseworx) | Episode 9 clues ("What..." and "L O N G") |
+
+### Community Discussion
+
+| Source | Used For |
+|--------|----------|
+| Reddit r/TheDigitalCircus | Theatrical release concerns, spoilers |
+| Reddit r/tadc | Theater employee reactions, community debates |
+| Instagram comments | Fan reactions to leaks |
+
+---
+
 ## Notes
 
 - All dates in the show's universe fall on **October 15th** (confirmed in Episode 8 terminal)

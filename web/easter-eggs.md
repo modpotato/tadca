@@ -195,6 +195,19 @@ paraphernalia-engine.dat [Oct 15, 1996]
 
 ---
 
+## Anti-AI Message in Credits
+
+**Location:** Episode 8 end credits
+**Discovery:** Community observation
+
+**Details:**
+- GLITCH added an anti-AI message to the end credits of TADC
+- Appears to be a statement about AI art and automation
+- Part of broader industry stance against AI-generated content
+- **Source:** Episode 8 end credits, Facebook discussion
+
+---
+
 ## Website Easter Eggs
 
 ### Meta Site ID

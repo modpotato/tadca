@@ -108,6 +108,49 @@ Scratch, Queenie, Wormo, Bizco, Rattie, Spike, Kaufmo, Ribbit
 
 ---
 
+## Recent Developments (April 2026)
+
+### The Last Act - Theatrical Release (LEAKED)
+- **Cinemark listed** "The Amazing Digital Circus: The Last Act" for **June 4, 2026**
+- **Double feature**: Episodes 8 + 9 combined
+- **Runtime**: 1 hour 38 minutes total
+  - Episode 8: ~32 minutes
+  - **Episode 9: ~1 hour 6 minutes** (longest episode ever)
+- Cinemark page has since been taken down
+- **No official confirmation** from Glitch or Gooseworx yet
+- **Source**: Cinemark website (removed), Instagram screenshots, Reddit discussions
+
+### Gooseworx Lore Drop (Live Stream, ~February 2026)
+- Confirmed **Jax and Pomni are the ONLY main characters**
+- Rest of cast are supporting characters
+- Statement angered portion of fanbase
+- **Source**: Gooseworx live stream, Instagram, Reddit
+
+### Gooseworx Tumblr Q&A
+- Confirmed **no Season 2** - show ends on her own terms
+- Quote: "I could stretch it out and have 5 seasons of filler, but I'd rather have each episode have meaningful character development"
+- Cast already read Episode 9 script and **cried while reading it**
+- **Source**: Gooseworx Tumblr Q&A
+
+### GLITCH Anti-AI Message
+- End credits of TADC now include an **anti-AI message**
+- Community noticed and discussed it
+- **Source**: Episode 8 end credits
+
+### Community Controversy
+- Theatrical release 2 weeks early = potential spoilers
+- Theater employees expressing concern about spoilers
+- Fans debating whether to watch early or wait for YouTube
+- **Source**: Reddit r/TheDigitalCircus, r/tadc
+
+### Gooseworx Hints
+- Episode 9 described as "What..." and "L O N G"
+- Possible title: **"The Last Act"** (not confirmed)
+- Words "the" and "is" will be in this episode
+- **Source**: Gooseworx Tumblr, Glitch Productions Wiki
+
+---
+
 ## Links
 
 - [Episode Guide](/lore/episodes)

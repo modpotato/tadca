@@ -4,6 +4,19 @@ All revealed character backstories from Episode 5 and other sources.
 
 ---
 
+## Main Characters Confirmation (February 2026)
+
+**Source:** Gooseworx live stream
+
+Gooseworx confirmed that **Jax and Pomni are the ONLY main characters** of the series. The rest of the cast are supporting characters.
+
+- **Jax** and **Pomni** are the central focus of the story
+- This statement angered a portion of the fanbase who felt other characters were sidelined
+- Message to take from show: **"There's meaning to be found in a stagnant life"**
+- **Sources:** Gooseworx live stream, Reddit r/CharacterRant, Instagram
+
+---
+
 ## Humans (Trapped in Circus)
 
 ### Pomni
@@ -15,11 +28,15 @@ All revealed character backstories from Episode 5 and other sources.
 | Previous Job | Supermarket accountant |
 | Hobbies | Exploring abandoned buildings |
 | YouTube | Posted videos, never got popular |
+| **Role** | **MAIN CHARACTER (confirmed Feb 2026)** |
 
 **How She Entered:** Possibly exploring abandoned C&A building
 
 **Episode 5 Quote:**
 > "I was an accountant for a supermarket chain. I sometimes got bored of things and would seek out mild thrills like exploring abandoned buildings."
+
+**Gooseworx Confirmation (Feb 2026):**
+> Pomni is one of the two main characters of the series. Source: Gooseworx live stream.
 
 ---
 
@@ -31,6 +48,7 @@ All revealed character backstories from Episode 5 and other sources.
 | Age | Unknown |
 | Previous Job | Unknown |
 | Key Trauma | Lost best friend Ribbit to abstraction |
+| **Role** | **MAIN CHARACTER (confirmed Feb 2026)** |
 
 **Behavior Explained:**
 - Mean behavior is defense mechanism after losing friends
@@ -40,6 +58,9 @@ All revealed character backstories from Episode 5 and other sources.
 
 **Episode 6 Revelation:**
 > Jax has panic attack after gun adventure, showing vulnerability
+
+**Gooseworx Confirmation (Feb 2026):**
+> Jax is one of the two main characters of the series. Source: Gooseworx live stream.
 
 ---
 
