@@ -1,152 +1,574 @@
+/* ========================================
+   TADC Lore Archive - Custom Theme
+   Dual-theme support: Light & Dark
+   Brand Colors: Red (#dc2626), Blue (#2563eb)
+   ======================================== */
+
+/* ========================================
+   BASE THEME VARIABLES
+   ======================================== */
+
 :root {
-  --vp-c-brand-1: #dc2626;
-  --vp-c-brand-2: #b91c1c;
-  --vp-c-brand-3: #991b1b;
-  --vp-c-brand-soft: rgba(220, 38, 38, 0.14);
-  
+  /* Brand Colors */
   --caine-red: #dc2626;
-  --caine-red-dim: rgba(220, 38, 38, 0.15);
+  --caine-red-dim: rgba(220, 38, 38, 0.14);
+  --caine-red-soft: rgba(220, 38, 38, 0.08);
   --abel-blue: #2563eb;
-  --abel-blue-dim: rgba(37, 99, 235, 0.15);
-  
+  --abel-blue-dim: rgba(37, 99, 235, 0.14);
+  --abel-blue-soft: rgba(37, 99, 235, 0.08);
+
+  /* VitePress Brand Integration */
+  --vp-c-brand-1: #dc2626;
+  --vp-c-brand-2: #ef4444;
+  --vp-c-brand-3: #b91c1c;
+  --vp-c-brand-soft: rgba(220, 38, 38, 0.14);
+
+  /* Button Colors */
   --vp-button-brand-bg: #dc2626;
   --vp-button-brand-hover-bg: #ef4444;
+  --vp-button-brand-active-bg: #b91c1c;
+  --vp-button-brand-text: #ffffff;
+
+  /* Link Colors */
+  --vp-c-accent: #2563eb;
+  --vp-c-accent-hover: #3b82f6;
 }
 
-.VPHero .name {
-  background: linear-gradient(135deg, #dc2626 0%, #2563eb 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+/* ========================================
+   LIGHT THEME SPECIFIC
+   ======================================== */
+
+:root:not([data-theme="dark"]) {
+  /* Background Colors */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8fafc;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f1f5f9;
+
+  /* Surface Colors */
+  --vp-c-surface: #ffffff;
+  --vp-c-surface-soft: #f8fafc;
+  --vp-c-surface-mute: #f1f5f9;
+  --vp-c-border: #e2e8f0;
+  --vp-c-divider: #e2e8f0;
+
+  /* Text Colors */
+  --vp-c-text-1: #0f172a;
+  --vp-c-text-2: #475569;
+  --vp-c-text-3: #64748b;
+
+  /* Component Specific Light */
+  --tadc-feature-bg: #ffffff;
+  --tadc-feature-border: #e2e8f0;
+  --tadc-feature-hover-border: #dc2626;
+
+  --tadc-sidebar-bg: #f8fafc;
+  --tadc-sidebar-border: #e2e8f0;
+  --tadc-sidebar-active: #dc2626;
+
+  --tadc-content-bg: #ffffff;
+  --tadc-heading-color: #0f172a;
+
+  --tadc-table-header-bg: #f1f5f9;
+  --tadc-table-header-color: #475569;
+  --tadc-table-border: #e2e8f0;
+  --tadc-table-cell-color: #334155;
+  --tadc-table-hover-bg: #f8fafc;
+
+  --tadc-blockquote-bg: #f8fafc;
+  --tadc-blockquote-border: #dc2626;
+  --tadc-blockquote-color: #475569;
+
+  --tadc-link-color: #2563eb;
+  --tadc-link-hover: #3b82f6;
+
+  --tadc-navbar-bg: #ffffff;
+  --tadc-navbar-border: #e2e8f0;
+  --tadc-navbar-title: #0f172a;
+
+  --tadc-footer-bg: #f8fafc;
+  --tadc-footer-border: #e2e8f0;
+
+  --tadc-scrollbar-track: #f1f5f9;
+  --tadc-scrollbar-thumb: #cbd5e1;
+  --tadc-scrollbar-thumb-hover: #94a3b8;
+
+  --tadc-code-tabs-bg: #f8fafc;
+  --tadc-code-border: #e2e8f0;
 }
 
+/* ========================================
+   DARK THEME SPECIFIC
+   ======================================== */
+
+[data-theme="dark"] {
+  /* Background Colors */
+  --vp-c-bg: #0d0d0d;
+  --vp-c-bg-alt: #111111;
+  --vp-c-bg-elv: #1a1a1a;
+  --vp-c-bg-soft: #1a1a1a;
+
+  /* Surface Colors */
+  --vp-c-surface: #1a1a1a;
+  --vp-c-surface-soft: #222222;
+  --vp-c-surface-mute: #2a2a2a;
+  --vp-c-border: #333333;
+  --vp-c-divider: #333333;
+
+  /* Text Colors */
+  --vp-c-text-1: #f5f5f5;
+  --vp-c-text-2: #cccccc;
+  --vp-c-text-3: #999999;
+
+  /* Component Specific Dark */
+  --tadc-feature-bg: #1a1a1a;
+  --tadc-feature-border: #333333;
+  --tadc-feature-hover-border: #dc2626;
+
+  --tadc-sidebar-bg: #111111;
+  --tadc-sidebar-border: #222222;
+  --tadc-sidebar-active: #dc2626;
+
+  --tadc-content-bg: #0d0d0d;
+  --tadc-heading-color: #f5f5f5;
+
+  --tadc-table-header-bg: #1a1a1a;
+  --tadc-table-header-color: #999999;
+  --tadc-table-border: #333333;
+  --tadc-table-cell-color: #cccccc;
+  --tadc-table-hover-bg: #1a1a1a;
+
+  --tadc-blockquote-bg: #1a1a1a;
+  --tadc-blockquote-border: #dc2626;
+  --tadc-blockquote-color: #cccccc;
+
+  --tadc-link-color: #60a5fa;
+  --tadc-link-hover: #93bbfc;
+
+  --tadc-navbar-bg: #111111;
+  --tadc-navbar-border: #222222;
+  --tadc-navbar-title: #f5f5f5;
+
+  --tadc-footer-bg: #111111;
+  --tadc-footer-border: #222222;
+
+  --tadc-scrollbar-track: #111111;
+  --tadc-scrollbar-thumb: #333333;
+  --tadc-scrollbar-thumb-hover: #444444;
+
+  --tadc-code-tabs-bg: #1a1a1a;
+  --tadc-code-border: #333333;
+}
+
+/* ========================================
+   HERO SECTION - Gradient Text
+   ======================================== */
+
+.VPHero .name,
 .VPHero .text {
   background: linear-gradient(135deg, #dc2626 0%, #2563eb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: 700;
 }
 
+.VPHero .tagline {
+  color: var(--vp-c-text-2);
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* ========================================
+   FEATURE CARDS
+   ======================================== */
+
 .VPFeature {
-  background: #1a1a1a;
-  border: 1px solid #333;
-  border-radius: 8px;
+  background: var(--tadc-feature-bg);
+  border: 1px solid var(--tadc-feature-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .VPFeature:hover {
-  border-color: #dc2626;
+  border-color: var(--tadc-feature-hover-border);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.1);
+  transform: translateY(-2px);
 }
 
+.VPFeature .icon {
+  color: var(--vp-c-brand-1);
+}
+
+.VPFeature .title {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.VPFeature .details {
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+
+/* ========================================
+   SIDEBAR
+   ======================================== */
+
 .VPSidebar {
-  background: #111;
-  border-right: 1px solid #222;
+  background: var(--tadc-sidebar-bg);
+  border-right: 1px solid var(--tadc-sidebar-border);
+}
+
+.VPSidebar .VPSidebarItem .text {
+  color: var(--vp-c-text-2);
+  transition: color 0.2s ease;
+}
+
+.VPSidebar .VPSidebarItem:hover .text {
+  color: var(--vp-c-text-1);
 }
 
 .VPSidebar .VPSidebarItem.active .text {
-  color: #dc2626;
+  color: var(--tadc-sidebar-active);
+  font-weight: 600;
 }
 
+.VPSidebar .VPSidebarItem.active {
+  background: var(--caine-red-soft);
+  border-radius: 6px;
+}
+
+/* ========================================
+   CONTENT AREA
+   ======================================== */
+
 .VPContent {
-  background: #0d0d0d;
+  background: var(--tadc-content-bg);
+  min-height: 100vh;
 }
 
 .VPDoc h1 {
-  color: #f5f5f5;
+  color: var(--tadc-heading-color);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
-table {
+.VPDoc h2 {
+  color: var(--tadc-heading-color);
+  font-weight: 600;
+  font-size: 1.875rem;
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 2rem;
+}
+
+.VPDoc h3 {
+  color: var(--tadc-heading-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.VPDoc p {
+  color: var(--vp-c-text-2);
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+/* ========================================
+   TABLES
+   ======================================== */
+
+.VPDoc table {
   border-collapse: collapse;
   width: 100%;
   margin: 1.5rem 0;
+  overflow-x: auto;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid var(--tadc-table-border);
 }
 
-thead {
-  background: #1a1a1a;
+.VPDoc thead {
+  background: var(--tadc-table-header-bg);
 }
 
-th {
-  color: #999;
+.VPDoc th {
+  color: var(--tadc-table-header-color);
   font-weight: 600;
-  padding: 0.75rem 1rem;
+  padding: 0.875rem 1rem;
   text-align: left;
-  border-bottom: 1px solid #333;
-  font-size: 0.85rem;
+  border-bottom: 1px solid var(--tadc-table-border);
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 }
 
-td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid #222;
-  color: #ccc;
+.VPDoc td {
+  padding: 0.875rem 1rem;
+  border-bottom: 1px solid var(--tadc-table-border);
+  color: var(--tadc-table-cell-color);
+  font-size: 0.95rem;
 }
 
-tr:hover td {
-  background: #1a1a1a;
+.VPDoc tr:last-child td {
+  border-bottom: none;
 }
 
-blockquote {
-  border-left: 3px solid #dc2626;
-  background: #1a1a1a;
+.VPDoc tr:hover td {
+  background: var(--tadc-table-hover-bg);
+  transition: background 0.2s ease;
+}
+
+/* ========================================
+   BLOCKQUOTES
+   ======================================== */
+
+.VPDoc blockquote {
+  border-left: 3px solid var(--tadc-blockquote-border);
+  background: var(--tadc-blockquote-bg);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
 }
 
-blockquote p {
-  color: #ccc;
+.VPDoc blockquote p {
+  color: var(--tadc-blockquote-color);
+  margin-bottom: 0;
+  font-style: italic;
 }
 
-a {
-  color: #60a5fa;
+.VPDoc blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ========================================
+   LINKS
+   ======================================== */
+
+.VPDoc a {
+  color: var(--tadc-link-color);
   text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  border-bottom: 1px solid transparent;
 }
 
-a:hover {
-  color: #93bbfc;
+.VPDoc a:hover {
+  color: var(--tadc-link-hover);
+  border-bottom-color: currentColor;
 }
+
+/* ========================================
+   NAVIGATION BAR
+   ======================================== */
 
 .VPNavBar {
-  background: #111;
-  border-bottom: 1px solid #222;
+  background: var(--tadc-navbar-bg);
+  border-bottom: 1px solid var(--tadc-navbar-border);
+  backdrop-filter: blur(8px);
 }
 
 .VPNavBarTitle {
-  color: #f5f5f5;
+  color: var(--tadc-navbar-title);
+  font-weight: 600;
 }
 
+.VPNavBarTitle:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* ========================================
+   SCROLLBARS
+   ======================================== */
+
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #111;
+  background: var(--tadc-scrollbar-track);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333;
-  border-radius: 3px;
+  background: var(--tadc-scrollbar-thumb);
+  border-radius: 4px;
+  border: 2px solid var(--tadc-scrollbar-track);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #444;
+  background: var(--tadc-scrollbar-thumb-hover);
 }
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--tadc-scrollbar-thumb) var(--tadc-scrollbar-track);
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+.VPFooter {
+  background: var(--tadc-footer-bg);
+  border-top: 1px solid var(--tadc-footer-border);
+  padding: 2rem 0;
+}
+
+.VPFooter .message {
+  color: var(--vp-c-text-3);
+  font-size: 0.875rem;
+}
+
+.VPFooter .copyright {
+  color: var(--vp-c-text-3);
+  font-size: 0.875rem;
+}
+
+/* ========================================
+   SEARCH
+   ======================================== */
 
 .VPLocalSearchBox {
   --vp-c-brand-1: #dc2626;
+  --vp-c-brand-2: #ef4444;
 }
 
-.VPFooter {
-  background: #111;
-  border-top: 1px solid #222;
+.VPLocalSearchBox .search-result {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
 }
+
+.VPLocalSearchBox .search-result:hover {
+  background: var(--vp-c-bg-soft);
+}
+
+/* ========================================
+   CODE GROUPS & TABS
+   ======================================== */
 
 .vp-code-group {
-  border: 1px solid #333;
+  border: 1px solid var(--tadc-code-border);
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .vp-code-group .tabs {
-  background: #1a1a1a;
-  border-bottom: 1px solid #333;
+  background: var(--tadc-code-tabs-bg);
+  border-bottom: 1px solid var(--tadc-code-border);
+  padding: 0.5rem 1rem;
+}
+
+.vp-code-group .tabs button {
+  color: var(--vp-c-text-3);
+  padding: 0.375rem 0.75rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.vp-code-group .tabs button.active {
+  color: var(--vp-c-brand-1);
+  background: var(--caine-red-soft);
+  font-weight: 500;
+}
+
+.vp-code-group .tabs button:hover:not(.active) {
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+}
+
+/* ========================================
+   ADDITIONAL ELEMENTS
+   ======================================== */
+
+/* Lists */
+.VPDoc ul,
+.VPDoc ol {
+  color: var(--vp-c-text-2);
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.VPDoc li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+/* Horizontal Rule */
+.VPDoc hr {
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  margin: 2.5rem 0;
+}
+
+/* Code Inline */
+.VPDoc code {
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Strong/Bold */
+.VPDoc strong {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+}
+
+/* Edit Link */
+.edit-link a {
+  color: var(--vp-c-text-3);
+  font-size: 0.875rem;
+}
+
+.edit-link a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* Prev/Next Links */
+.prev-next a {
+  color: var(--vp-c-text-2);
+}
+
+.prev-next a:hover {
+  color: var(--vp-c-brand-1);
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (max-width: 768px) {
+  .VPFeature {
+    padding: 1.25rem;
+  }
+
+  .VPDoc h1 {
+    font-size: 2rem;
+  }
+
+  .VPDoc h2 {
+    font-size: 1.5rem;
+  }
+
+  .VPDoc table {
+    font-size: 0.875rem;
+  }
+
+  .VPDoc th,
+  .VPDoc td {
+    padding: 0.625rem 0.75rem;
+  }
 }
